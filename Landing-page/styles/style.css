@@ -97,7 +97,7 @@ form [type="submit"]:hover{
 }
 
 
-form [type="text"]{
+input::placeholder{
     color: rgb(132,14,201);
 }
 
@@ -105,7 +105,7 @@ form [type="email"]{
     color: rgb(132,14,201);
 }
 
-#nome:hover{
+#nome{
     color: rgb(132,14,201);
 }
 
@@ -119,3 +119,4 @@ input{
     font-size: 15px;
     
 }
+
