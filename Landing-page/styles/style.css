@@ -28,6 +28,22 @@ a{
     color: white;
 }
 
+a:hover{
+    color: rgb(132,14,201);
+    transition: 0.3s all;
+}
+
+#ccc{
+    border: 2px solid rgb(132,14,201);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#ccc:hover{
+    background-color: rgb(132,14,201);
+    color: white;
+}
+
 h1{
     font-weight: 200;
 }
@@ -59,4 +75,47 @@ p{
 
 img{
     width: 620px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+
+form [type="submit"]{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(132,14,201);
+    color: white;
+    font: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+
+form [type="text"]{
+    color: rgb(132,14,201);
+}
+
+form [type="email"]{
+    color: rgb(132,14,201);
+}
+
+#nome:hover{
+    color: rgb(132,14,201);
+}
+
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border-color: rgb(132,14,201);
+    font-size: 15px;
+    
 }
